@@ -1,0 +1,31 @@
+{
+  "name": "nov24_4",
+  "version": "1.0.0",
+  "description": "Node.js Express server tutorial with Hello World and Good Evening endpoints",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "jest --watchAll=false --ci",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --watchAll=false"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "tutorial",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
